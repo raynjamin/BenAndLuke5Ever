@@ -28,6 +28,8 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-mustache')
+	compile("org.springframework.boot:spring-boot-starter-data-jpa")
+	compile("org.postgresql:postgresql:9.4.1212")
 	compile('org.springframework.boot:spring-boot-starter-web')
 	runtime('org.springframework.boot:spring-boot-devtools')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
